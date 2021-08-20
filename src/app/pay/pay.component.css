@@ -1,0 +1,77 @@
+.center {
+  text-align: center;
+}
+
+.this {
+  margin-left: 8%;
+  color: #f5f5c6;
+}
+
+p{
+  margin: 5%;
+}
+
+hr{
+  width : 90% ;
+  margin-top : 5% ;
+  margin-left : 5% ;
+}
+
+.detail {
+  margin-top: -1%;
+  margin-right: 10%;
+  font-weight: 100;
+  text-align: right;
+  color: #27253d;
+}
+
+h5 {
+  margin-left: 8%;
+  color: #27253d;
+}
+
+.area{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -2%;
+}
+
+.remark{
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.address{
+  margin: 5%;
+  font-weight: 100;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  background-color: white;
+  padding: 2%;
+  width: 90%;
+}
+
+.goods{
+  text-align: left;
+  margin-left: 10%;
+  font-weight: 100;
+}
+
+.price{
+  text-align: right;
+  margin-right: 10%;
+  font-weight: 100;
+}
+
+.price-total{
+  text-align: right;
+  margin-right: 10%;
+  font-weight: bold;
+}
+
+.total{
+  text-align: left;
+  margin-left: 10%;
+  font-weight: bold;
+}

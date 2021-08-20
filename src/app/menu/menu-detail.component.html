@@ -1,0 +1,177 @@
+<!-- <style> -->
+<!-- /* @import 'bootstrap/dist/css/bootstrap.min.css'; */ -->
+<!-- </style> -->
+<div class="container-fluid scroll">
+  <header>
+    <div class="row bg-grape">
+      <div class="col-2 center p-3">
+        <img src="assets/icon/arrow.png" (click)="Click('menu')">
+      </div>
+      <div class="col-7 p-3">
+        <h3 class="h3-center">MENU</h3>
+      </div>
+      <div class="col-3 p-3">
+        <img src="assets/icon/add-to-cart.png" class="imgg">
+      </div>
+    </div>
+  </header>
+  <br>
+  <div class="card">
+    <div class="row">
+      <div class="col-12">
+        <img src="assets/img/Americano.jpg" class="img-fluid img">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h4>อเมริกาโน่</h4><br>
+      </div>
+      <!-- <div class="col-6">
+        <p class="price">50 บาท</p>
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="detail">สามารถเลือกรูปแบบและระดับความหวานได้</p>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h5>เลือกรูปแบบ</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="form-check radio">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            ร้อน
+          </label>
+        </div>
+      </div>
+      <div class="col-6 ">
+        <p class="radio-price">50 บาท</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-6">
+        <div class="form-check radio">
+          <input class="form-check-input" type="radio" name="flexRadioDefault">
+          <label class="form-check-label">
+            เย็น
+          </label>
+        </div>
+      </div>
+      <div class="col-6 ">
+        <p class="radio-price">60 บาท</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-6">
+        <div class="form-check radio">
+          <input class="form-check-input" type="radio" name="flexRadioDefault">
+          <label class="form-check-label">
+            ปั่น
+          </label>
+        </div>
+      </div>
+      <div class="col-6 ">
+        <p class="radio-price">70 บาท</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12">
+        <h5>ระดับความหวาน</h5>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check radio-sweet">
+        <input class="form-check-input" type="radio" name="flexRadioDefault">
+        <label class="form-check-label">
+          หวานน้อย
+        </label>
+      </div>
+    </div>
+    <br>
+    <div class="col-12">
+      <div class="form-check radio-sweet">
+        <input class="form-check-input" type="radio" name="flexRadioDefault">
+        <label class="form-check-label">
+          หวานปกติ
+        </label>
+      </div>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h5>หมายเหตุ</h5><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="detail">สามารถใส่ข้อมูลเพิ่มเติมได้ที่นี่</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12">
+        <div class="mb-3 area">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h4>กรณีที่ไม่มีสินค้า</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <select class="form-select emergency option" aria-label="Default select example">
+          <option value="1" class="option">นำสินค้าออกจากออเดอร์ฉัน</option>
+          <option value="2" class="option">ยกเลิกทั้งออเดอร์</option>
+          <option value="3" class="option">โทรหาฉัน</option>
+        </select>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="row">
+      <div class="col-2 center">
+        <img src="assets/icon/minus.png" class="minus">
+      </div>
+      <div class="col-8 center">
+        <input type="number" class="form-control input" id="exampleFormControlInput1">
+      </div>
+      <div class="col-2 center">
+        <img src="assets/icon/plus.png" class="plus">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 center">
+        <button type="button" class="btn btn-success basket" (click)="Click('basket')">ใส่รถเข็น</button>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-2 center">
+        <img src="assets/icon/minus.png" class="minus">
+      </div>
+      <div class="col-3 center">
+        <input type="number" class="form-control input" id="exampleFormControlInput1">
+      </div>
+      <div class="col-2 center">
+        <img src="assets/icon/plus.png" class="plus">
+      </div>
+      <div class="col-3 center">
+        <button type="button" class="btn btn-success basket">ใส่รถเข็น</button>
+      </div>
+      <br><br>
+    </div> -->
+    <br>
+  </div>
+
+</div>
+<br><br><br><br><br><br><br>ๅ

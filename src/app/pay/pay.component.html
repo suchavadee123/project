@@ -1,0 +1,98 @@
+<div class="container-fluid scroll">
+  <header>
+    <div class="row bg-grape">
+      <div class="col-2 center p-3">
+        <img src="assets/icon/arrow.png" (click)="Click('basket')">
+      </div>
+      <div class="col-10 p-3">
+        <h3 class="this">PLACE AN ORDER</h3>
+      </div>
+      <!-- <div class="col-3 p-3">
+        <img src="assets/icon/add-to-cart.png" class="imgg">
+      </div> -->
+    </div>
+  </header>
+  <br>
+  <div class="card">
+    <div class="row">
+      <div class="col-4">
+        <img src="assets/img/Americano.jpg" class="img-fluid img-product">
+      </div>
+      <div class="col-8 menu">
+        <p>&nbsp;&nbsp;อเมริกาโน่</p>
+        <p>&nbsp;&nbsp;จำนวน : 1 แก้ว</p>
+        <p>&nbsp;&nbsp;50 บาท</p>
+      </div>
+      <hr>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-6">
+        <h5>ที่อยู่จัดส่งสินค้า</h5>
+      </div>
+      <div class="col-6">
+        <p class="detail">จัดการที่อยู่</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12">
+        <div class="mb-3 area">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="col-12" >
+        <button class="address" (click)="Click('address')">+ เพิ่มที่อยู่</button>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12">
+        <h5 class="remark">ระบุถึงผู้ขาย (ถ้ามี)</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="mb-3 remark">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-6">
+        <p class="goods">ค่าสินค้า</p>
+      </div>
+      <div class="col-6">
+        <p class="price">50</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <p class="goods">ค่าจัดส่ง</p>
+      </div>
+      <div class="col-6">
+        <p class="price">ฟรี</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <p class="total">รวมทั้งหมด</p>
+      </div>
+      <div class="col-6">
+        <p class="price-total">50</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 center">
+        <br><br>
+        <button type="button" class="btn btn-success">ยืนยันการสั่งซื้อ</button>
+        <br><br>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br><br><br><br><br><br><br>

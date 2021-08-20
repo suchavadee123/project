@@ -1,0 +1,33 @@
+h5{
+  color: #27253d;
+}
+
+.center{
+  text-align: center;
+}
+
+hr{
+  width : 90% ;
+  margin-top : 5% ;
+  margin-left : 5% ;
+}
+
+/* img{
+  margin-top: 10%;
+  margin-left : 15% ;
+} */
+
+p{
+  margin: 10%;
+}
+
+a{
+  text-decoration: none;
+  color: #27253d;
+}
+
+.imgg{
+  margin-left: 50%;
+  margin-top: -1%;
+}
+

@@ -1,0 +1,64 @@
+h5 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.h5 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: right;
+}
+
+.btn-set {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+
+.date-time {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  /* margin-top: -5%; */
+  font-size: 87%;
+  font-weight: 100;
+  text-align: justify;
+  color: #27253d;
+}
+
+button {
+  margin-bottom: 10%;
+  margin-left: 45%;
+  font-size: small;
+}
+
+.img {
+  margin-left: 50%;
+}
+
+.tabs {
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs__tab--active {
+  /* Border */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  /* Hide the bottom border */
+  border-bottom-color: transparent;
+
+  /* Border radius */
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.tabs__tab--inactive {
+  /* Has only the bottom border */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}

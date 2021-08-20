@@ -1,0 +1,110 @@
+.center {
+  text-align: center;
+}
+
+.this {
+  margin-left: 20%;
+  color: #f5f5c6;
+}
+
+h5 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.h5 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: right;
+}
+
+.date-time {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  /* margin-top: -5%; */
+  font-size: 87%;
+  font-weight: 100;
+  text-align: justify;
+  color: #27253d;
+}
+
+/* button {
+  margin-bottom: 10%;
+  margin-left: 45%;
+  font-size: small;
+} */
+
+hr {
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.text-cart {
+  font-size: 100%;
+  font-weight: 100;
+  margin-left: 15%;
+}
+
+.text {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.basket {
+  margin-top: 30%;
+  margin-left: 30%;
+}
+
+table {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 20%;
+  margin-top: -10%;
+}
+
+.price {
+  margin-top: -10%;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 100;
+  margin-right: 20%;
+}
+
+.total {
+  margin-left: 20%;
+}
+
+.total-price {
+  text-align: right;
+  margin-right: 20%;
+}
+
+.submit {
+  margin-bottom: 10%;
+  margin-top: 20%;
+}
+
+/* input{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+} */
+
+/* .minus{
+ margin-right: 80%;
+} */
+
+/* .plus{
+} */

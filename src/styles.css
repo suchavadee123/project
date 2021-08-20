@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+/* @import 'bootstrap/dist/js/bootstrap.min.js'; */
+
+@font-face {
+  font-family: "Mitr", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap");
+}
+
+body {
+  background-color: #f5f5c6;
+  font-family: "Mitr", sans-serif;
+}
+
+.bg-grape {
+  background-color: #27253d;
+}
+
+.h3 {
+  color: #f5f5c6;
+}
+
+.imgg {
+  margin-left: 50%;
+}
+
+.h3-center{
+  margin-left: 40%;
+  color: #f5f5c6;
+}
+
+.img-product{
+  margin-top: 10%;
+  margin-left : 15% ;
+}
+
+.minus{
+  padding-left: 50%;
+  margin-top: 20%;
+}
+
+.plus{
+  margin-top: 20%;
+  margin-left: -10%;
+}

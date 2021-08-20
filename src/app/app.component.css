@@ -1,0 +1,27 @@
+/* body {
+  font-family: "Mitr", sans-serif;
+} */
+
+.bg-grape {
+  background-color: #27253d;
+}
+
+.center {
+  text-align: center;
+}
+
+.fixed-bottom {
+  position: fixed;
+}
+
+p {
+  color: #f5f5c6;
+}
+
+h3{
+  color: #f5f5c6;
+}
+
+a{
+  text-decoration: none;
+}
