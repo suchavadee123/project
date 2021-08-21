@@ -24,7 +24,7 @@ import { AddressComponent } from './address/address.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   bootstrap: [AppComponent]
 })
