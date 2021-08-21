@@ -21,13 +21,13 @@ const routes: Routes = [{
   path: 'menu',
   component: MenuComponent
 }, {
-  path: 'menu/menu-detail',
+  path: 'menu/detail',
   component: MenuDetailComponent
 }, {
   path: 'history',
   component: HistoryComponent
 }, {
-  path: 'history/history-cancel',
+  path: 'history/cancel',
   component: HistoryCancelComponent
 }, {
   path: 'user',
