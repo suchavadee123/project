@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -10,6 +9,7 @@ import { UserComponent } from './user/user.component';
 import { BasketComponent } from './basket/basket.component';
 import { PayComponent } from './pay/pay.component';
 import { AddressComponent } from './address/address.component';
+
 
 @NgModule({
   declarations: [
