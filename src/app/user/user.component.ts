@@ -1,5 +1,5 @@
+import { liff } from '@line/liff';
 import { Component, OnInit } from '@angular/core';
-import liff from '@line/liff';
 
 @Component({
   selector: 'app-user',
@@ -8,14 +8,22 @@ import liff from '@line/liff';
 })
 export class UserComponent implements OnInit {
 
-  displayName : String = '' ;
+  name: String = '';
 
-  ngOnInit() {
-    liff.init({ liffId: '1656199226-JGye8wkD' });
+  ngOnInit(): void {
+    liff.init({ liffId: '1656199226-JGye8wkD' })
   }
 
-  showprofile(){
+  show() {
+    liff.getProfile().then(profile => {
+         this.name = profile.displayName
+        console.log(this.name)
+      })
+      .catch((err) => {
+        console.log('error', err);
+      });
   }
+
 
 
 }
