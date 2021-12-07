@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import liff from '@line/liff';
 
 @Component({
   selector: 'app-user',
@@ -7,26 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
+  displayName : String = '' ;
 
-  constructor( ) {
-    this.initLineLiff();
-
+  ngOnInit() {
+    liff.init({ liffId: '1656199226-JGye8wkD' });
   }
 
-  async initLineLiff() {
-    try {
-      // this.data = await this.approveLoanService.initLineLiff();
-      // this.userProfile = await liff.getProfile();
-      // this.userId = this.userProfile.userId;
-    } catch (err) {
-      alert(err)
-    }
+  showprofile(){
   }
 
-  async ngOnInit() {
-    await this.initLineLiff();
-    // await
-    // liff.init({ liffId: '1656199226-JGye8wkD' });
-  }
 
 }
