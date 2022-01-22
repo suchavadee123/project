@@ -13,7 +13,7 @@ import { UserComponent } from './user/user.component';
 const routes: Routes = [{
   path: '',
   pathMatch: 'full',
-  redirectTo: 'home'
+  redirectTo: 'user'
 }, {
   path: 'home',
   component: HomeComponent

@@ -11,7 +11,7 @@ export class UserComponent implements OnInit {
   name: String = '';
 
   ngOnInit(): void {
-
+    this.show();
   }
 
   show() {
