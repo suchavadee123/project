@@ -11,17 +11,17 @@ export class UserComponent implements OnInit {
   name: String = '';
 
   ngOnInit(): void {
-    console.log(this.name)
-  }
-
-  show() {
-    liff.init({
-      liffId: "1656199226-JGye8wkD", // Use own liffId
-    })
+    liff.init
+      ({
+        liffId: "1656199226-JGye8wkD" // Use own liffId
+      })
       .then(() => {
         const idToken = liff.getIDToken();
         console.log(idToken); // print raw idToken object
       });
+  }
+
+  show() {
     liff.getProfile().then(profile => {
       this.name = profile.displayName
       console.log(this.name)
