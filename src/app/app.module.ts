@@ -1,3 +1,4 @@
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -9,7 +10,9 @@ import { UserComponent } from './user/user.component';
 import { BasketComponent } from './basket/basket.component';
 import { PayComponent } from './pay/pay.component';
 import { AddressComponent } from './address/address.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+import { TableClientComponent } from './datatable/table-client/table-client.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +24,14 @@ import { AddressComponent } from './address/address.component';
     BasketComponent,
     PayComponent,
     AddressComponent,
+    TableClientComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgxDatatableModule,
+    HttpClientModule,
+    CommonModule,
   ],
   bootstrap: [AppComponent]
 })

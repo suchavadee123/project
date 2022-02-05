@@ -10,36 +10,34 @@
     </div>
   </header>
   <br>
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-12">
       <h5 class="ms-3">Coffee</h5>
     </div>
-  </div>
-  <div class="card">
-    <div class="row ">
-      <div class="col-4">
-        <a routerLink="detail">
-          <img src="assets/img/Americano.jpg" class="img-fluid img-product">
-        </a>
-      </div>
-      <div class="col-8">
-        <a routerLink="detail">
-          <p>&nbsp;&nbsp;ชื่อ : อเมริกาโน่</p>
-          <p>&nbsp;&nbsp;ราคา : 50 บาท</p>
-        </a>
-      </div>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-4">
-        <img src="assets/img/Americano.jpg" class="img-fluid img-product">
-      </div>
-      <div class="col-8">
-        <p>&nbsp;&nbsp;ชื่อ : อเมริกาโน่</p>
-        <p>&nbsp;&nbsp;ราคา : 50 บาท</p>
-      </div>
-      <hr>
-    </div>
-  </div>
+  </div> -->
+
   <!-- <br><br><br><br><br><br> -->
 </div>
+<ngx-datatable class="material" [rows]="infoList">
+  <ngx-datatable-column>
+    <ng-template let-row="row" ngx-datatable-cell-template>
+      {{row.productId}}
+    </ng-template>
+  </ngx-datatable-column>
+  <ngx-datatable-column>
+    <ng-template let-row="row" ngx-datatable-cell-template>
+      <!-- {{row.img}} -->
+    </ng-template>
+  </ngx-datatable-column>
+  <ngx-datatable-column>
+    <ng-template let-row="row" ngx-datatable-cell-template>
+      {{row.name}}
+    </ng-template>
+  </ngx-datatable-column>
+  <ngx-datatable-column>
+    <ng-template let-row="row" ngx-datatable-cell-template>
+      {{row.price}}
+    </ng-template>
+  </ngx-datatable-column>
+
+</ngx-datatable>

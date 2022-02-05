@@ -23,6 +23,8 @@
     "@angular/platform-browser-dynamic": "~12.1.0",
     "@angular/router": "~12.1.0",
     "@line/liff": "^2.17.0",
+    "@sercanuste/ngx-datatable": "^1.0.17",
+    "@swimlane/ngx-datatable": "^20.0.0",
     "bootstrap": "^5.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.1",

@@ -1,7 +1,6 @@
 import { MenuComponent } from './menu.component';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 @Component({
   selector: 'app-menu',
