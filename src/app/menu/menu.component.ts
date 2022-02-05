@@ -18,16 +18,16 @@ export class MenuComponent implements OnInit {
   page = new Page();
 
   ngOnInit(): void {
-    this.show();
+    // this.show();
   }
 
-  show(): void {
-    Object.assign(this.searchModel, )
-    this.sv.search(this.searchModel, this.page).pipe()
-      .subscribe((res: any) => {
-        this.infoList = res.records;
-      });
-  }
+  // show(): void {
+  //   Object.assign(this.searchModel, )
+  //   this.sv.search(this.searchModel, this.page).pipe()
+  //     .subscribe((res: any) => {
+  //       this.infoList = res.records;
+  //     });
+  // }
 }
 
 
