@@ -15,13 +15,13 @@ export interface GetDetail {
 @Injectable({ providedIn: 'root' })
 export class MenuService {
 
-  private resourceUrl = `${environment.apiUrl}`;
+  private resourceUrl = `${environment.apiUrl}usermenu`;
 
   constructor(private http: HttpClient) { }
 
-  // search(model: SearchModel, page: Page) {
-  //   return this.http.post<any>(`${this.resourceUrl}/search`, model);
-  // }
+  search(model: SearchModel, page: Page) {
+    return this.http.post<any>(`${this.resourceUrl}/search`, model);
+  }
 
 
 
